@@ -1,6 +1,19 @@
-// Vue3提供的的方法，用于创建 vue 实例
+// Vue3,创建vue实例
 import { createApp } from 'vue'
+// 引入 reset.scss
+import '@/assets/style/reset.scss'
+// 引入 vue-router
+// import router from './router'
+// 引入 pinia
+// import store from './store'
 // 引入根组件
 import App from './App.vue'
-// 创建应用实例并挂载到 #app 节点上
-createApp(App).mount('#app')
+import HospitalTop from '@/views/HospitalTop.vue'
+import HospitalBottom from '@/views/HospitalBottom.vue'
+// 创建应用实例
+const app = createApp(App)
+//全局组件
+app.component('HospitalTop', HospitalTop)
+app.component('HospitalBottom', HospitalBottom)
+//挂载
+app.mount('#app')
