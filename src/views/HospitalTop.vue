@@ -23,13 +23,14 @@
   justify-content: center;
   background-color: #fff;
   border-bottom: 2px solid #eee;
+  position: fixed;
+  z-index: 999;
   .top-content {
-    width: 1200px;
+    width: 90vw;
     height: 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    // margin: 0 auto;
     .top-left {
       display: flex;
       align-items: center;
