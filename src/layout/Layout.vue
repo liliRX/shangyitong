@@ -24,9 +24,9 @@
   align-items: center;
   .routerviews {
     margin-top: 80px;
-    min-height: 100vh;
+    min-height: 1200px;
     width: 90%;
-    background-color: bisque;
+    background-color:white;
   }
 }
 </style>

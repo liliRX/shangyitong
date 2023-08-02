@@ -40,8 +40,8 @@
 
       .text {
         margin-left: 10px;
-        font-size: 26px;
-        color: #65a3f5;
+        font-size: 24px;
+        color: #70aeff;
       }
     }
     .top-right {
