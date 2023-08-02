@@ -4,15 +4,17 @@
   <HospitalTop />
 
   <!-- 展示路由区域 -->
-  <div class="routerviews">hhhhhhhhhh</div>
-  <!-- <router-view /> -->
+  <div class="routerviews">
+    <router-view></router-view>
+  </div>
+    
+
   <!-- 底部全局组件 -->
   <HospitalBottom />
 </div>
 </template>
 
 <script setup lang="ts">
-// import { ref } from "vue"
 </script>
 
 <style lang="scss" scoped>
