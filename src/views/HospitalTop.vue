@@ -41,7 +41,7 @@
       .text {
         margin-left: 10px;
         font-size: 26px;
-        color: #0066ee;
+        color: #65a3f5;
       }
     }
     .top-right {
@@ -49,8 +49,8 @@
       align-items: center;
       .text {
         margin-right: 20px;
-        font-size: 16px;
-        color: #737373;
+        font-size: 15px;
+        color: #969696;
       }
     }
   }

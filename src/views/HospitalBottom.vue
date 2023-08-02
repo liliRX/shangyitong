@@ -24,7 +24,7 @@
 .bottom-container {
   width: 100vw;
   height: 50px;
-  background-color: #e9e9e9;
+  background-color: #efefef;
   display: flex;
   justify-content: center;
   .bottom-content {
@@ -37,7 +37,7 @@
       display: flex;
       justify-content: flex-start;
       span {
-        color: #3d3d3d;
+        color: #696969;
         margin-right: 10px;
       }
     }
@@ -47,7 +47,7 @@
       ul {
         display: flex;
         li {
-          color: #3d3d3d;
+          color: #696969;
           font-size: 14px;
           margin-right: 10px;}
       }
